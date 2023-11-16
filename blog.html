@@ -1,0 +1,87 @@
+<html>
+<head>
+  <meta />
+  <title>Blog</title>
+  <link href="https://fonts.googleapis.com/css?family=Montserrat|Open+Sans|Roboto&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" type="text/css" href="blog.css" />
+  <script src="javascript.js"></script>
+</head>
+<body>
+  <div class="post-container">
+    <div class="post">
+      <p class="date">02 de outubro de 2023</p>
+      <h1>Primeira Publicação do Blog do Programador</h1>
+      <div class="post-content">
+        <section class="conteudo">
+          <div class="itens">
+            <a href="html.html"><p>HTML</p></a>
+          </div>
+          <div class="itens">
+            <a href="css.html"><p>CSS</p></a>
+          </div>
+          <div class="itens">
+            <a href="javascript.html"><p>JavaScript</p></a>
+          </div>
+        </section>
+      </div>
+    </div>
+    <hr />
+    <div class="post">
+      <p class="date">03 de outubro de 2023</p>
+      <p>
+      </p>
+      <h1>Segunda Publicação do Blog do Programador</h1>
+      <div class="post-content">
+        <p>Node.js é um ambiente de execução JavaScript do lado do servidor, permitindo a construção de aplicativos web escaláveis. React.js é uma biblioteca JavaScript para construir interfaces de usuário interativas e reativas em aplicações web. Ambos são amplamente utilizados no desenvolvimento moderno de aplicações web.
+        </p>
+        <div class="post-content">
+            <section class="conteudo">
+              <div class="itens">
+                <a href="NodeJS.html" onclick="confirmarRedirecionamento()"><p>NodeJS</p></a>
+              </div>
+              <div class="itens">
+                <a href="ReactJS.html" onclick="confirmarRedirecionamento2()"><p>ReactJS</p></a>
+              </div>
+              </div>
+      </div>
+    </div>
+    <hr>
+    <div class="post">
+      <p class="date">04 de outubro de 2023</p>
+      <p>
+      </p>
+      <h1>Sobre mim</h1>
+      <div class="post-content">
+<h3>Luiz Guilherme Colli do Carmo</h1>
+  <img src="eu.jpeg" alt="eu" id="eu">
+  <br>
+  <p1>Tenho 19 anos e estou no segundo período de Engenharia de Software.</p1>
+       <br>
+      </div>
+    </div>
+    <hr />
+    <div class="post">
+      <p class="date">05 de outubro de 2023</p>
+      <p>
+      </p>
+      <h1>Quarta Publicação do Blog do Programador</h1>
+      <div class="post-content">
+        <p>Escolha uma imagem
+        </p>
+        <label for="seletorImagem">Escolha uma imagem:</label>
+        <select id="imageSelect" onchange="mudarimagem()">
+          <option value="html.png">Imagem 1</option>
+          <option value="css.png">Imagem 2</option>
+          <option value="js.png">Imagem 3</option>
+        </select>
+        <br>
+        <img id="displayImage" src="html.png" alt="Imagem selecionada" style="width:200px">
+
+    <br>
+      </div>
+    </div>
+  </div>
+</div>
+</body>
+
+</html>

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<h1>ReactJS</h1>
+<p1>O React é uma biblioteca front-end JavaScript de código aberto com foco em criar interfaces de usuário em páginas web.</p1>
+<br>
+<label for="checkbox">Voltar página</label>
+<input type="checkbox" id="check">
+<label for="botão"></label>
+<input type="button" value="Voltar" onclick="voltar()">
+<script>
+    function voltar() {
+      var checkBox = document.getElementById("check");
+      if (checkBox.checked == true){
+        window.location.href = "blog.html";
+      }
+    }
+    </script>
+</html>
